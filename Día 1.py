@@ -33,4 +33,5 @@ print("suma="+str(suma)+"| resta="+str(resta)+"\
 | Multiplicacion=" + str(multp)+"\
 | Division=" + str(div))
 print("modulo="+ str(modulo))
-s
+
+sss
