@@ -33,5 +33,5 @@ print (Vocal =="a" or Vocal =="b" or Vocal =="o" or Vocal =="i" or Vocal =="u")
 numero = int(input("¿ He aprovado? "))
 print (numero >=5 and numero <=10)
              
-
+num1=("dime el primer número:")
 
