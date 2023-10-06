@@ -54,3 +54,7 @@ if esGanador("Has ganado"):
 
 else:
     print("Has perdido")
+
+
+
+    
