@@ -25,4 +25,5 @@ esDulce = True
 
 while numDulces > 0:
     print (f"¡Hola ente! ¿Cuantos dulces quieres?") 
-    numDulcesNinio = random.randrange(6)
+    numDulcesNinio = random.randrange(numMaxDulcesNinioPorNinios+1)
+    print(f"¡Quiero {numDulcesNinio} dulces! ")
