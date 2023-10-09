@@ -20,13 +20,9 @@ def cuantosdulces(nNinios,nDulces):
 
 
 numMaxDulcesNinioPorNinios = 5
-numMaxNinios = 50
 numNinios = random.randrange(50)
 
-if numNinios > numMaxNinios:
-    print("¡No podemos comprar tantos dulces!")
-elif numNinios > 0 and numNinios <=numMaxNinios:
-    numDulces = cuantosdulces(numNinios,numMaxDulcesNinioPorNinios)  
-    print (f"¡Compraremos {numDulces} dulces!")
-else:
-    print ("Niños negativos")
+#Como ya numNinios ya no puede ser entre 0 y 50, las comprobaciones sobran.
+print(f"Vendran a visitarnos {numNinios} niños: ")
+numDulces = cuantosdulces(numNinios,numMaxDulcesNinioPorNinios)  
+print (f"¡Compraremos {numDulces} dulces!")
