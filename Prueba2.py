@@ -8,8 +8,14 @@ def MenorDeEdad():
     num1 = EdadHobbit()
     num2 = EdadHobbit()
     num3 = EdadHobbit()
-    return 
+    respuesta = num1 + num2 + num3
+    return respuesta
 
+def TodasLasEdades(Edad1, Edad2, Edad3):
+
+    operacion = input("Introduce suma: ")
+    if operacion == "suma":
+        resultado = Edad1 + Edad2 + Edad3
 
 def resultado():
 
@@ -27,13 +33,14 @@ Nombre3 = input("¿Como se llama el tercer hobbit ")
 Edad1 = int(input("Dime la edad del primero:" ))
 Edad2 = int(input("Dime la edad del segundo: "))
 Edad3 = int(input("Dime la edad del tercero:" ))
-
-
 # 2 Menor de edad: ¿Sabéis que los hobbits cumplen la mayoría de edad a los 33 años? Si alguno de nuestros Hobbits tiene menos 
 # de 33 años, automáticamente puede repetir. ¡Están en edad de crecimiento! [Esto debería hacerse con una bonita función]
 
-
-
+num1= Edad1
+num2 = Edad2    
+num3 = Edad3
+respuesta = num1 + num2 + num3
+print (respuesta)
 
 
 
@@ -42,28 +49,23 @@ Edad3 = int(input("Dime la edad del tercero:" ))
 # Si la suma es múltiplo de 3, el segundo hobbit puede repetir. 
 # Si la suma es múltiplo de 5, el tercer hobbit puede repetir.
 # Por ejemplo: Si la suma fuera 60 años, los tres pueden repetir porque 60 es múltiplo de 2, 3 y 5. 
-
-def TodasLasEdades(Edad1, Edad2, Edad3):
-
-    operacion = input("Introduce suma: ")
-    if operacion == "suma":
-        resultado = Edad1 + Edad2 + Edad3
-
-
-
-
-
-
-
-
 # ¿Qué ha pasado al final? Escribe por pantalla qué hobbits puede repetir y cuáles no.
-
-
-
-
-
 # [EXTRA +1 PUNTO] Repartir: 
 # Solo nos quedan dos platos de comida extra, así que toca decidir:
 # Si los tres hobbits pueden repetir imprime “Toca repartir la comida”
 # Si ningún hobbit puede repetir imprime “Va a sobrar comida”
 # Si pueden uno o dos hobbits imprime  “¡A comer!”
+
+def ejercicio11():
+    num1 = EdadHobbit()
+    num2 = EdadHobbit()
+    num3 = EdadHobbit()
+    if respuesta == %2
+        respuesta = "El primer Hobbit puede repetir"
+    elif respuesta == %3
+        respuesta = "El segundo Hobbit puede repetir"
+    elif respuesta == %5
+        respuesta = "El tercer Hobbit puede repetir"
+    else: 
+        respuesta = "Se quedan sin comer"
+    return respuesta
