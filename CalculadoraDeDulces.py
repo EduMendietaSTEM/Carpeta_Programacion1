@@ -10,6 +10,8 @@
  dulces que necesitas comprar. 
  [El cálculo se realizará en una función]
 """
+
+import random
 #Funciones:
 
 def cuantosdulces(nNinios,nDulces):
@@ -18,8 +20,8 @@ def cuantosdulces(nNinios,nDulces):
 
 
 numMaxDulcesNinioPorNinios = 5
-numMaxNinios = 25
-numNinios = int(input("¿Cuantos niños vendrán?"))
+numMaxNinios = 50
+numNinios = random.randrange(50)
 
 if numNinios > numMaxNinios:
     print("¡No podemos comprar tantos dulces!")
