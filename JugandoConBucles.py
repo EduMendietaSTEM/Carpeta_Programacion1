@@ -3,7 +3,8 @@ Contexto: Estas organizando una fiesta de halloween y quieres
 calcular cuantos dulces necesitas comprar para los niños que 
 vendrán a tu casa.
 
-Caso 1: Tenemos 500 dulce y vamos a repartirlos.
+Caso 1: Tenemos 500 dulce y vamos a repartirlos entre niños que
+    cogen un numero aleatorio de dulces.
 """
 
 
@@ -18,5 +19,10 @@ numMaxDulcesNinioPorNinios = 5
 numDulces = 500
 esDulce = True
 
-while (esDulce):
-    print("ÑamÑam")
+# while (esDulce):
+#     print("ÑamÑam")
+# #Para salir de un while True: tenemos que hacer Control+C.
+
+while numDulces > 0:
+    print (f"¡Hola ente! ¿Cuantos dulces quieres?") 
+    numDulcesNinio = random.randrange(6)
