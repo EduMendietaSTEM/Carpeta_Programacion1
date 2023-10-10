@@ -7,12 +7,26 @@
 #Creamos una lista de mounstruos.
 listaDeMonstruos = ["Bruja", "Vampiro", "Fantasma", "Hombre Lobo", "Zombie"  ]
 
-
+# Un STR por dentro de una lista.
+monstruo = "Bruja" #monstruo =["B","r","u","j","a"]
 # for *cadaElemento* in *unaLista*: *Hacemos algo*
 
+print("\nDeletreame la palabra {monstruo}:")
+for letra in monstruo:
+    print(letra, end = "--")
+
+# for *cadaElemento* in *unaLista*: *Hacemos algo*
 print("\nImprimo la listaDeMonstruos")
 for monstruo in listaDeMonstruos:
     print(f"¡{monstruo}s! ¡Que miedo!", end=" ---")
+
+#Ejemplo deletrea todas las palabras.
+print("\nDeletrea las palabras")
+for monstruo in listaDeMonstruos:
+    print(monstruo, end="--")
+    for letra in monstruo:
+        print(letra, end = "--")
+
 
 # Ponemos 10+1 en vez de 11 porque queremos llegar hasta el 10,
 # y asi lo vemos directamente.
